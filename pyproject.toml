@@ -1,0 +1,11 @@
+[project]
+name = "victor-corpus"
+version = "1.0.0"
+description = "Victor Corpus — The Hybrid Super-Monolithic Sovereign Entity"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "asyncio",
+    "pathlib",
+    "typing-extensions",
+]
