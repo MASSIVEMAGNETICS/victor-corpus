@@ -12,6 +12,11 @@ dependencies = [
     "typing-extensions",
 ]
 
+[project.optional-dependencies]
+test = [
+    "pytest>=8,<9",
+]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["victor_corpus*", "organ_connector*"]
